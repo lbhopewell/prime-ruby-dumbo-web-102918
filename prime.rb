@@ -2,8 +2,9 @@
 
 def prime?(number)
   counter = 2
-  if number < 0 
+  if number < 1 
     return false 
+  else
   while counter < number 
    if number % counter ==  0
     false 
@@ -12,3 +13,4 @@ def prime?(number)
     end
  end   
 end 
+end
