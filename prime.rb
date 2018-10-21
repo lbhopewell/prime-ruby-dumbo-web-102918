@@ -1,6 +1,7 @@
 # Add  code here!
 
 def prime?(number)
+  if number < 0 
   prime_flag = true
   counter = 2
   while (counter < number / 2)
