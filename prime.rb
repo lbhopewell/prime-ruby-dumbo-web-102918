@@ -7,10 +7,11 @@ def prime?(number)
     else
           while counter < number 
            if number % counter ==  0
-            false 
+            return false 
           else 
-            true
+            return true
           end
+          counter += 1
     end   
   end 
 end
