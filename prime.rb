@@ -8,6 +8,6 @@ def prime?(number)
       prime_flag = false 
     break
     end
-    prime_flag
+    counter += 1
 end
 end
