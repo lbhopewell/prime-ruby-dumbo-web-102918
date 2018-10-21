@@ -1,13 +1,12 @@
 # Add  code here!
 
 def prime?(number)
-  
   counter = 2
   while (counter < number / 2)
     if number % counter ==  0
-      return false 
+      false 
     else 
-      return true
+      true
     end
       counter += 1
   end 
