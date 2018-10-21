@@ -6,9 +6,8 @@ def prime?(number)
   while (counter < number / 2)
     if (number % counter ==  0)
       prime_flag = false 
-    else 
-      true
+    break
     end
-      counter += 1
+    prime_flag
 end
 end
