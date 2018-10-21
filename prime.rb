@@ -10,4 +10,5 @@ def prime?(number)
     end
     counter += 1
 end
+return prime_flag
 end
