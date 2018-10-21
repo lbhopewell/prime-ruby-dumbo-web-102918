@@ -5,7 +5,7 @@ def prime?(number)
   while counter < number 
    if number % counter 
     false 
-  elsif (number % 2 == 0)
+  elsif number % 2 == 0
     false 
   else
     true
